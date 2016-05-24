@@ -1,0 +1,89 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat.otf'),
+    url('../fonts/Montserrat.otf'); /* IE */
+}
+body{
+	margin:0;
+	height:auto;
+	font-family:Montserrat;
+	color:rgb(2,2,255);
+}
+
+#footer{
+	position:fixed;
+	bottom:0;
+	font-size:10px;
+	width:70%;
+	background-color:rgb(51,51,51);
+	color:rgb(204,204,204);
+	text-align:center;
+	padding:5px;
+}
+
+#sampledata1{
+	color:rgb(204,204,204);
+}
+#sampledata2{
+	color:rgb(255,255,255);
+}
+#sampledata3{
+	color:rgb(153,153,153);
+}
+.button{
+	color:rgb(51,51,51);
+	transition:ease-in-out .25s;
+	padding:25px;
+	padding-left:50px;
+	padding-right:50px;
+	border:rgb(51,51,51) solid;
+}
+.button:hover{
+	color:rgb(255,255,255);
+	background-color:rgb(51,51,51);
+}
+
+.parameters{
+	color:rgb(51,51,51);
+	width:40%;
+}
+
+#right{
+	width:70%;
+	height:auto;
+	min-height:100%;
+	background-image:url(../images/congruent_pentagon.png);
+	float:right;
+	text-align:center;
+	color:rgb(51,51,51);
+}
+
+#left{
+	position:fixed;
+	width:30%;
+	float:left;
+	background-image:url(../images/congruent_outline.png);
+	min-height:100%;
+}
+
+#buttons{
+	margin:5%;
+}
+
+#menu{
+	margin-top:40%;
+	font-size:24px;
+}
+
+#menu a{
+	margin-top:100px;
+	color:rgb(204,204,204);
+	text-decoration:none;
+	transition:ease-in-out .2s;
+}
+
+#menu a:hover{
+	padding-left:25px;
+	opacity:0.3;
+	cursor:pointer;
+}

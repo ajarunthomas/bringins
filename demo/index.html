@@ -1,0 +1,164 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/bringins.js"></script>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+<link rel="stylesheet" href="css/main.css" />
+
+<meta name="description" content="jQuery plugin to show contents as an animated page" />
+<meta property="og:title" content="bringins Demo" />
+<meta property="og:type" content="jQuery Plugin" />
+<meta property="og:url" content="http://www.ajarunthomas.com/jquery/bringins/demo/" />
+<meta property="og:image" content="http://ajarunthomas.com/jquery/bringins/images/bringins_social.png" />
+<meta property="og:description" content="jQuery plugin to show contents as an animated page" />
+
+<link rel="shortcut icon" href="../../../images/favicon.ico" type="image/x-icon" />
+<meta name="description" content="bringins demo page" />
+<meta name="keywords" content="jquery,plugin,bringins,arun,thomas" />
+<meta name="author" content="Arun Thomas" />
+<meta name="alexaVerifyID" content="BpG8y2P8vrm_nrBOX09g26aB3lY"/>
+
+<title>bringins demo</title>
+
+<script>
+$(document).ready(function() {
+	$('#btn').click(function(){
+		$('#sampledata1').bringins();
+	});
+	$('#btn2').click(function(){
+		$('#sampledata2').bringins({
+			"position":"left",
+			"color":"grey",
+			"width":"40%",
+			"closeButton":"white"
+		});
+	});
+	$('#btn3').click(function(){
+		$('#sampledata3').bringins({
+			"position":"center",
+			"color":"black",
+			"closeButton":"white",
+			"width":"100%"
+		});
+	});
+});
+</script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71445628-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="left">
+	<div id="menu" align="center">
+    	<a href="../">HOME</a>
+        <br><br>
+        <a href="../docs.html">DOCUMENTATION</a>
+        <br><br>
+        <a style="opacity:0.3">DEMO</a>
+        <br><br>
+        <a download href="../js/bringins.js">DOWNLOAD</a>
+        <br><br>
+        <a href="/jquery/">MORE PLUGINS</a>
+        <br><br>
+        <a href="../contact.html">CONTACT</a>
+    </div>
+</div>
+
+<div id="right">
+	<div id="buttons" align="center">
+		<h1>BRINGINS</h1>
+        <p>DEMO</p>
+        
+        <div id="social" align="center">
+        
+        <div class="fb-share-button" data-href="http://www.ajarunthomas.com/jquery/bringins/demo/" data-layout="button" data-mobile-iframe="true"></div>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-text="jQuery plugin to show contents as an animated page" data-via="ajarunthomas" data-hashtags="bringins">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <a data-pin-do="buttonBookmark" href="https://www.pinterest.com/pin/create/button/"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>
+        
+        </div>
+        
+        <br><br><br>
+		<a id="btn" class="button">Demo 1</a>
+        <br><br><br>
+        <a class="parameters">DEFAULT VALUES - position:right, width:50%, margin:50, color:rgba(0,0,0,0.7), closeButton:rgb(102,102,102) and zIndex not set</a>
+		<br><br><br><br><br>
+		<a id="btn2" class="button">Demo 2</a>
+        <br><br><br>
+        <a class="parameters">position:left, width:40%, color:grey, closeButton:white</a>
+		<br><br><br><br><br>
+		<a id="btn3" class="button">Demo 3</a>
+        <br><br><br>
+        <a class="parameters">position:center, width:100%, color:black, closeButton:white</a>
+        <br><br><br><br><br>
+	</div>
+    
+<div id="footer">
+	<a>Copyright (c) 2016 Arun Thomas</a>
+</div>
+</div>
+
+
+
+<div id="sampledata1" class="bringins-content">
+	<h2>javascript</h2>
+    <p>JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern Web browsers without plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.
+<br><br>
+Despite some naming, syntactic, and standard library similarities, JavaScript and Java are otherwise unrelated and have very different semantics. The syntax of JavaScript is actually derived from C, while the semantics and design are influenced by the Self and Scheme programming languages.
+<br><br>
+JavaScript is also used in environments that are not Web-based, such as PDF documents, site-specific browsers, and desktop widgets. Newer and faster JavaScript virtual machines (VMs) and platforms built upon them have also increased the popularity of JavaScript for server-side Web applications. On the client side, JavaScript has been traditionally implemented as an interpreted language, but more recent browsers perform just-in-time compilation. It is also used in game development, the creation of desktop and mobile applications, and server-side network programming with runtime environments such as Node.js</p>
+</div>
+
+<div id="sampledata2" class="bringins-content">
+<h2>jQuery</h2>
+<p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. jQuery is the most popular JavaScript library in use today, with installation on 65% of the top 10 million highest-trafficked sites on the Web. jQuery is free, open-source software licensed under the MIT License.
+<br><br>
+jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced effects and high-level, theme-able widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applications.
+<br><br>
+The set of jQuery core features—DOM element selections, traversal and manipulation—enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM data structures. This style influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo, later stimulating the creation of the standard Selectors API.
+<br><br>
+Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX and ASP.NET MVC frameworks while Nokia has integrated it into the Web Run-Time widget development platform. jQuery has also been used in MediaWiki since version 1.16.
+</p>
+</div>
+
+<div id="sampledata3" class="bringins-content">
+<h2>CSS</h2>
+<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
+<br><br>
+CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+<br><br>
+This separation of formatting and content makes it possible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (when read out by a speech-based browser or screen reader) and on Braille-based, tactile devices. It can also be used to display the web page differently depending on the screen size or device on which it is being viewed. Readers can also specify a different style sheet, such as a CSS file stored on their own computer, to override the one the author has specified.
+<br><br>
+Changes to the graphic design of a document (or hundreds of documents) can be applied quickly and easily, by editing a few lines in the CSS file they use, rather than by changing markup in the documents.
+<br><br>
+The CSS specification describes a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities (or weights) are calculated and assigned to rules, so that the results are predictable.
+<br><br>
+The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.
+</p>
+</div>
+
+</body>
+</html>
