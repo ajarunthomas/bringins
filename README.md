@@ -7,23 +7,23 @@ www.ajarunthomas.com
 <br>
 <br>
 <a href="http://www.ajarunthomas.com/jquery/bringins/demo/" target="_blank" style="text-decoration:none">Demo</a>
-<a download href="http://www.ajarunthomas.com/jquery/bringins/js/bringins.js" target="_blank" style="text-decoration:none">Download</a>
+<a download href="http://www.ajarunthomas.com/files/bringins.js" target="_blank" style="text-decoration:none">Download</a>
 <br><br>
 <a href="http://www.ajarunthomas.com/jquery/bringins/" target="_blank" style="text-decoration:none">Website</a>
-##USAGE
-###Step 1 : Include js
+## USAGE
+### Step 1 : Include js
 ```
 <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="js/bringins.js"></script>
 ```
-###Step 2 : create your content to be shown as a bringins page
+### Step 2 : create your content to be shown as a bringins page
 ```
 <div id="sampledata" class="bringins-content">
     Your content goes here...
 </div>
 ```
 Note : You can define your custom CSS for this content and make sure you have included the 'bringins-content' class
-###Step 3 : Activate the plugin
+### Step 3 : Activate the plugin
 ```
 $(document).ready(function() {
     $('#sampledata').bringins();
