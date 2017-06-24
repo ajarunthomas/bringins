@@ -1,0 +1,27 @@
+{
+  "name": "bringins",
+  "version": "1.0.0",
+  "description": "Show contents on a webpage as an animated page",
+  "main": "src/bringins.js",
+  "homepage": "http://ajarunthomas.com/jquery/bringins/",
+  "keywords": [
+    "javascript",
+    "jquery",
+    "animation",
+    "svg",
+    "animated",
+    "pages"
+  ],
+  "author": "Arun Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "ajarunthomas.com/jquery/bringins/"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "bringins.jquery.json",
+    "package.json",
+    "LICENSE.txt",
+ ]
+}
