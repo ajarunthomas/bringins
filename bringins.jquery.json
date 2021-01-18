@@ -19,5 +19,6 @@
 	"description": "jQuery plugin to show contents on a webpage as an animated page",
 	"homepage": "http://www.ajarunthomas.com/jquery/bringins",
 	"docs": "http://www.ajarunthomas.com/jquery/bringins/docs.html",
-	"download": "http://www.ajarunthomas.com/jquery/bringins/js/bringins.js"
+	"download": "http://www.ajarunthomas.com/files/bringins.js",
+	"demo": "http://www.ajarunthomas.com/jquery/bringins/demo"
 }
